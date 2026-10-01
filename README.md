@@ -21,7 +21,7 @@ A clean, dark spooky themed portfolio website built to display information about
 
 ## How to try it
 1. Clone this repository
-2. Open project folder in code editor
+2. Open project folder in code editor (VS Code preferably)
 3. [URL](https://demo-portfolio-jade-two.vercel.app/)
 
 ## Inspiration
