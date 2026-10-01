@@ -22,7 +22,7 @@ A clean, dark spooky themed portfolio website built to display information about
 ## How to try it
 1. Clone this repository
 2. Open project folder in code editor
-3. [URL](https://portfolio-iota-lyart-25.vercel.app/)
+3. [URL](https://demo-portfolio-jade-two.vercel.app/)
 
 ## Inspiration
 This is a project i've always wanted to try after i would feel confident in my ability to write HTML and CSS and I built this project as a way to test my coding and web development skills and to actually start web development instead of being stuck in the tutorial hell.
