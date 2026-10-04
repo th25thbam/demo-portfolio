@@ -3,15 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Demo Portfolio</title>
+    <title>Bam | Horror Portfolio</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
         <nav>
-            <h2 class="logo">Portfolio</h2>
+            <h2 class="logo"><span class="pumpkin-face face-3" style="width: 25px; height: 25px;"></span> Portfolio</h2>
             <ul>
-                <li><a href="#home">Home</a></li>
+                <li><a href="#home" class="active">Home</a></li>
                 <li><a href="#about">About</a></li>
                 <li><a href="#skills">Skills</a></li>
                 <li><a href="#projects">Projects</a></li>
@@ -22,80 +22,93 @@
 
     <main>
         <section id="home">
-            <span class="pumpkin-face face-3" style="width:80px; height:80px; margin-bottom: 10px;"></span>
+            <div class="hero-emblem">
+                <span class="pumpkin-face face-10" style="width: 90px; height: 90px;"></span>
+            </div>
             <p>Hello, I am</p>
             <h1>Bam</h1>
             <h2 id="typing-text">An aspiring Programmer & Developer</h2>
-            <p>I Build things using HTML, JavaScript, CSS and C++</p>
+            <p>I build things using HTML, JavaScript, CSS, and C++</p>
             <a href="#projects">View My Projects</a>
         </section>
 
         <section id="about">
-            <h1><span class="pumpkin-face face-2" style="width:45px; height:45px; vertical-align: middlle;"></span>About Me:</h1>
+            <h1><span class="pumpkin-face face-2"></span> About Me</h1>
             <p>
-                I am a Computer Science student interested in software, web and game development aswell as AI/ML and building projects.
+                I am a Computer Science student passionate about software, web and game development, AI/ML, and building creative projects from scratch.
             </p>
             <p>
-                Currently learning JavaScript, Java, AI/ML and exploring different technical tools and areas of computer science.
+                Currently expanding my skills in JavaScript, C++, systems programming, and modern developer tools.
             </p>
-
             <p>
-                I enjoy building projects, learning new technologies, exploring the world of computer science, brainstorming over new ideas.
+                I enjoy tackling complex technical challenges, brainstorming unique ideas, and bringing digital experiences to life.
             </p>
         </section>
 
         <section id="skills">
-            <h2><span class="spooky-pumpkin-face face-4" style="width: 45px; height: 45px; vertical-align: middle;"></span> Skills:</h2>
+            <h2><span class="pumpkin-face face-4"></span> Skills</h2>
             <div class="skills-container">
                 <div class="skill">
-                    <h3><span class="spooky-pumpkin-face face-1" style="width: 35px; height: 35px; vertical-align: middle;"></span> Languages:</h3>
+                    <h3><span class="pumpkin-face face-1" style="width: 30px; height: 30px;"></span> Languages</h3>
                     <p>C++ | JavaScript | HTML | CSS | Python</p>
                 </div>
                 <div class="skill">
-                    <h3><span class="spooky-pumpkin-face face-5" style="width: 35px; height: 35px; vertical-align: middle;"></span> Technologies:</h3>
-                    <p>Git | Github | Node.js | MySQL | Raylib</p>
+                    <h3><span class="pumpkin-face face-5" style="width: 30px; height: 30px;"></span> Technologies</h3>
+                    <p>Git | GitHub | Node.js | MySQL | Raylib</p>
                 </div>
                 <div class="skill">
-                    <h3><span class="spooky-pumpkin-face face-6" style="width: 35px; height: 35px; vertical-align: middle;"></span> Currently Learning:</h3>
-                    <p>AI/ML | DSA | Game Development</p>
+                    <h3><span class="pumpkin-face face-6" style="width: 30px; height: 30px;"></span> Exploring</h3>
+                    <p>AI/ML | Data Structures & Algorithms | Game Dev</p>
                 </div>
             </div>
         </section>
 
         <section id="projects">
-            <h2><span class="spooky-pumpkin-face face-7" style="width: 45px; height: 45px; vertical-align: middle;"></span> Projects:</h2>
+            <h2><span class="pumpkin-face face-7"></span> Projects</h2>
             <div class="projects-container">
                 <article class="project-card">
                     <div class="project-content">
-                    <h3>Tic-Tac-Toe</h3>
-                    <p>A Tic-Tac-Toe game built using C++ and Raylib library.</p>
+                        <h3>SpookIt (Pumpkin Pop)</h3>
+                        <p>A fast-paced C++ reaction game built with Raylib featuring dynamic difficulty scaling and custom canvas rendering.</p>
                     </div>
                     <div class="project-tech">
-                    <span>C++</span>
-                    <span>Raylib</span>
+                        <span>C++</span>
+                        <span>Raylib</span>
+                        <span>Makefile</span>
                     </div>
-                    <a href="https://github.com/th25thbam/tictactoe" target="_blank" rel="noopener noreferrer" class="project-link" >View Project</a>
+                    <a href="https://github.com/th25thsbam/spookIt" target="_blank" rel="noopener noreferrer" class="project-link">View Project</a>
                 </article>
 
                 <article class="project-card">
                     <div class="project-content">
-                    <h3>Demo Portfolio</h3>
-                    <p>A dark and spooky theme based demo portfolio website.</p>
+                        <h3>Tic-Tac-Toe</h3>
+                        <p>A local two-player Tic-Tac-Toe game built using C++ and the Raylib library.</p>
                     </div>
                     <div class="project-tech">
-                    <span>HTML5</span>
-                    <span>CSS3</span>
-                    <span>JavaScript</span>
+                        <span>C++</span>
+                        <span>Raylib</span>
                     </div>
-                    <a href="https://github.com/th25thbam/demo-portfolio" target="_blank" rel="noopener noreferrer" class="project-link" >View Project</a>
+                    <a href="https://github.com/th25thbam/tictactoe" target="_blank" rel="noopener noreferrer" class="project-link">View Project</a>
+                </article>
+
+                <article class="project-card">
+                    <div class="project-content">
+                        <h3>Demo Portfolio</h3>
+                        <p>A dark gothic horror-themed interactive personal developer portfolio website.</p>
                     </div>
+                    <div class="project-tech">
+                        <span>HTML5</span>
+                        <span>CSS3</span>
+                        <span>JavaScript</span>
+                    </div>
+                    <a href="https://github.com/th25thbam/demo-portfolio" target="_blank" rel="noopener noreferrer" class="project-link">View Project</a>
                 </article>
             </div>
         </section>
 
         <section id="contacts">
-            <h2><span class="spooky-pumpkin-face face-8" style="width: 45px; height: 45px; vertical-align: middle;"></span> My contacts:</h2>
-            <p>Interested in working together?</p>
+            <h2><span class="pumpkin-face face-8"></span> Contacts</h2>
+            <p>Interested in working together or connecting?</p>
             <div class="contact-links">
                 <a href="https://mail.google.com/mail/?view=cm&fs=1&to=yuriiha25@gmail.com" target="_blank">Mail</a>
                 <a href="https://github.com/th25thbam" target="_blank">GitHub</a>
@@ -104,7 +117,7 @@
     </main>
     
     <footer>
-        <p>Built using HTML, JavaScript and CSS.</p>
+        <p>Built with HTML, JavaScript, and CSS. <span class="pumpkin-face face-9" style="width: 20px; height: 20px; vertical-align: middle;"></span></p>
     </footer>
     <script src="script.js"></script>
 </body>
