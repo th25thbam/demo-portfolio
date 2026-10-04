@@ -30,6 +30,8 @@
             <h2 id="typing-text">An aspiring Programmer & Developer</h2>
             <p>I build things using HTML, JavaScript, CSS, and C++</p>
             <a href="#projects">View My Projects</a>
+
+            <p class="pumpkin-hint">click the pumpkin faces for a big surprise</p>
         </section>
 
         <section id="about">
@@ -119,6 +121,17 @@
     <footer>
         <p>Built with HTML, JavaScript, and CSS. <span class="pumpkin-face face-9" style="width: 20px; height: 20px; vertical-align: middle;"></span></p>
     </footer>
-    <script src="script.js"></script>
+
+    <div id="jumpscare-overlay">
+        <div class="jumpscare-content">
+            <span class="pumpkin-face face-10 jumpscare-face"></span>
+            <h1 class="jumpscare-text">BOOOOOOOOO</h1>
+        </div>
+    </div>
+    <button id="sound-toggle" style="position: fixed; bottom: 20px; left: 20px; z-index: 10000; background: #120303; color: #ef4444; border: 1px solid #7f1d1d; padding: 8px 14px; font-family:'Courier New', Courier, monospace; cursor: pointer; border-radius: 4px; box-shadow: 0 0 10px rgba(220,38,38,0.3);"> Sound: OFF</button>
+    <audio id="horror-audio" loop preload="auto">
+        <source src="audio/horror-audio.mp3" type="audio/mpeg">
+    </audio>
+    <script src="script.js" defer></script>
 </body>
 </html>

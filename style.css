@@ -342,7 +342,6 @@ footer {
 .spider-thread {
     position: fixed;
     top: 0;
-    right: 10%;
     width: 1px;
     height: 150px;
     background: rgba(220, 38, 38, 0.2);
@@ -387,4 +386,81 @@ footer {
 @keyframes dropThread {
     0% { height: 100px; }
     100% { height: 220px; }
+}
+
+#jumpscare-overlay{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height:100vh;
+    background-color: #000;
+    z-index: 99999;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.05s ease-in-out;
+}
+
+#jumpscare-overlay.active{
+    opacity: 1;
+    pointer-events: auto;
+    animation: screenFlash 0.2s infinite alternate;
+}
+
+.jumpscare-content{
+    text-align: center;
+    transform: scale(0.2);
+    transition: transform 0.1s cubic-bezier(0.175, 0.885, 0.32, 1.275)
+}
+
+#jumpscare-overlay.active .jumpscare-content{
+    transform: scale(3.5);
+}
+
+.jumpscare-face{
+    width: 150px;
+    height: 150px;
+    margin-bottom: 20px;
+}
+
+.jumpscare-text{
+    color: #dc2626;
+    font-size: 65px;
+    letter-spacing: 6px;
+    text-shadow: 0 0 20px #ef4444, 0 0 40px #7f1d1d;
+    animation: terrifyingFlicker 0.2s infinite;
+}
+
+@keyframes screenFlash{
+    0%{background-color: #260202;}
+    100%{background-color: #000000;}
+}
+
+body.shaking header,
+body.shaking main,
+body.shaking footer{
+    animation: screenShake 0.12s infinite;
+}
+
+.pumpkin-hint{
+    margin-top: 20px;
+    font-size: 14px;
+    color: #ef4444;
+    opacity: 0.75;
+    letter-spacing: 1px;
+    font-style: italic;
+    text-shadow: 0 0 8px rgba(239, 68, 68, 0.4);
+    animation: terrifyingFlicker 3s infinite;
+}
+
+@keyframes screenShake{
+    0% { transform: translate(3px, 3px) rotate(0deg); }
+    20% { transform: translate(-4px, -2px) rotate(-1deg); }
+    40% { transform: translate(-3px, 4px) rotate(1deg); }
+    60% { transform: translate(4px, 1px) rotate(0deg); }
+    80% { transform: translate(-2px, -4px) rotate(-1deg); }
+    100% { transform: translate(2px, 3px) rotate(1deg); }
 }
