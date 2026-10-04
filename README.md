@@ -11,11 +11,12 @@ A clean, dark spooky themed portfolio website built to display information about
 1. Smooth Navigation
 2. Interactive Links
 3. Projects card
+4. Spooky Audio
 
 ## Technologies and Tools used
 * **HTML5** - for page structure and content layout.
 * **CSS3** - for custom styling, responsive structure of the page, animations and the dark and spooky color theme.
-* **JavaScript** - for scroll spy navigation tracking, and creating spooky elements.
+* **JavaScript** - for scroll spy navigation tracking, creating spooky elements and an interactive audio button for turning the audio on and off.
 
 ## How to try it
 1. Clone this repository
