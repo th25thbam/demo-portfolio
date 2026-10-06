@@ -16,7 +16,7 @@ A clean, dark spooky themed portfolio website built to display information about
 ## Technologies and Tools used
 * **HTML5** - for page structure and content layout.
 * **CSS3** - for custom styling, responsive structure of the page, animations and the dark and spooky color theme.
-* **JavaScript** - for spooky jumpscare element and controlling horror immersive audio.
+* **JavaScript** - for smooth scrolling and spooky jumpscare element and controlling horror immersive audio.
 
 ## How to try it
 1. Clone this repository
