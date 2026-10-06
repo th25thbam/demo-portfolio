@@ -5,7 +5,7 @@ A clean, dark spooky themed portfolio website built to display information about
 
 ## Preview
 ![preview](images/image.png)
-![alt text](images/image1.png)
+![preview](images/image1.png)
 
 ## Features
 1. Smooth Navigation
