@@ -36,14 +36,16 @@
 
         <section id="about">
             <h1><span class="pumpkin-face face-2"></span> About Me</h1>
-            <p>
-                I am a Computer Science student passionate about software, web and game development, AI/ML, and building creative projects from scratch.
+            <p style="font-size: 25px;">
+                I am a computer science student interested in web development, game development and AI/Ml.
             </p>
-            <p>
-                Currently expanding my skills in JavaScript, C++, systems programming, and modern developer tools.
+
+            <p style="font-size: 25px;">
+                Currently learning game dev and AI/ML tools, as well as working on web dev projects.
             </p>
-            <p>
-                I enjoy tackling complex technical challenges, brainstorming unique ideas, and bringing digital experiences to life.
+
+            <p style="font-size: 25px;">
+                My favourite Programming Language is C++.
             </p>
         </section>
 
@@ -128,10 +130,10 @@
             <h1 class="jumpscare-text">BOOOOOOOOO</h1>
         </div>
     </div>
-    <button id="sound-toggle" style="position: fixed; bottom: 20px; left: 20px; z-index: 10000; background: #120303; color: #ef4444; border: 1px solid #7f1d1d; padding: 8px 14px; font-family:'Courier New', Courier, monospace; cursor: pointer; border-radius: 4px; box-shadow: 0 0 10px rgba(220,38,38,0.3);"> Sound: OFF</button>
-    <audio id="horror-audio" loop preload="auto">
-        <source src="audio/horror-audio.mp3" type="audio/mpeg">
-    </audio>
+    <audio src="audio/horror-audio.mp3" id="horror-audio" preload="auto"></audio>
+    <button id="togglebtn" class="audio-btn" aria-label="Toggle Audio">
+        Audio: OFF
+    </button>
     <script src="script.js" defer></script>
 </body>
 </html>

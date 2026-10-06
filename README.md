@@ -4,8 +4,8 @@
 A clean, dark spooky themed portfolio website built to display information about a demo computer science student such as background, technical skills, and projects. The website is built using HTML5, CSS3, JavaScript.
 
 ## Preview
-![preview](images/image.png)
-![preview](images/image1.png)
+![preview](image.png)
+![alt text](image1.png)
 
 ## Features
 1. Smooth Navigation
@@ -16,7 +16,7 @@ A clean, dark spooky themed portfolio website built to display information about
 ## Technologies and Tools used
 * **HTML5** - for page structure and content layout.
 * **CSS3** - for custom styling, responsive structure of the page, animations and the dark and spooky color theme.
-* **JavaScript** - for scroll spy navigation tracking, creating spooky elements and an interactive audio button for turning the audio on and off.
+* **JavaScript** - for spooky jumpscare element and controlling horror immersive audio.
 
 ## How to try it
 1. Clone this repository
