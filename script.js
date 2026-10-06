@@ -1,3 +1,22 @@
+const sections = document.querySelectorAll("section")
+const navlinks = document.querySelectorAll("nav ul li a");
+window.addEventListener('scroll', () => {
+    let current="";
+    sections.forEach( section => {
+        const sectiontop = section.offsetTop;
+        const sectionheight = section.offsetHeight;
+        if(window.scrollY >= sectiontop - sectionheight / 3 ){
+            current = section.getAttribute("id");
+        }
+    });
+    navlinks.forEach(link => {
+        link.classList.remove("active");
+        if (link.getAttribute('href')==="#" + current){
+            link.classList.add("active");
+        }
+    });
+});
+
 const pumpkinFaces = document.querySelectorAll(".pumpkin-face");
 const jumpscareOverlay = document.getElementById("jumpscare-overlay");
 
@@ -47,3 +66,4 @@ btn.addEventListener('click', async () => {
         console.error("audio failed( browser restriction ):", error);
     }
 });
+
