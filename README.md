@@ -4,9 +4,8 @@
 A clean, dark spooky themed portfolio website built to display information about a demo computer science student such as background, technical skills, and projects. The website is built using HTML5, CSS3, JavaScript.
 
 ## Preview
-![preview](images/image.png)
-![preview](images/image1.png)
-
+![Preview](images/image.png)
+![Preview](images/image1.png)
 ## Features
 1. Smooth Navigation
 2. Interactive Links
