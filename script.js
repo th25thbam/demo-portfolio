@@ -34,7 +34,7 @@ pumpkinFaces.forEach(face => {
         setTimeout(() => {
             jumpscareOverlay.classList.remove("active");
             document.body.classList.remove("shaking");
-        }, 1200);
+        }, 2000);
     });
 });
 
