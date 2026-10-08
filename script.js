@@ -19,11 +19,16 @@ window.addEventListener('scroll', () => {
 
 const pumpkinFaces = document.querySelectorAll(".pumpkin-face");
 const jumpscareOverlay = document.getElementById("jumpscare-overlay");
-
+const jumpscareAudio = document.getElementById("jumpscare-scream");
 pumpkinFaces.forEach(face => {
     face.style.cursor = "pointer";
     face.addEventListener("click", (e) => {
         e.stopPropagation();
+        if(jumpscareAudio){
+            jumpscareAudio.currentTime = 0;
+            jumpscareAudio.volume = 0.6;
+            jumpscareAudio.play().catch(err => console.log("jumpscare audio not working", err));
+        }
         jumpscareOverlay.classList.add("active");
         document.body.classList.add("shaking");
         setTimeout(() => {
