@@ -7,10 +7,11 @@ A clean, dark spooky themed portfolio website built to display information about
 ![Preview](images/image.png)
 ![Preview](images/image1.png)
 ## Features
-1. Smooth Navigation
-2. Interactive Links
-3. Projects card
-4. Spooky Audio
+1. Smooth navigation using html and javascript
+2. Interactive Links to access projects
+3. Projects card that displays information about the projects and are linked with github repository
+4. Backgrounds and colors used to make the portfolio look spooky and scary
+5. Audios that makes the portfolio immersive and spooky 
 
 ## Technologies and Tools used
 * **HTML5** - for page structure and content layout.
@@ -20,7 +21,8 @@ A clean, dark spooky themed portfolio website built to display information about
 ## How to try it
 1. Clone this repository
 2. Open project folder in code editor (VS Code preferably)
-3. [https://demo-portfolio-delta-gules.vercel.app/]
+3. Host locally using the Live Server extension and view the website on local host
+4. Alternatively we can try the online hosted demo link: https://demo-portfolio-delta-gules.vercel.app/
 
 ## Inspiration
 This is a project i've always wanted to try after i would feel confident in my ability to write HTML and CSS and I built this project as a way to test my coding and web development skills and to actually start web development instead of being stuck in the tutorial hell.
