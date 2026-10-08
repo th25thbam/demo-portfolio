@@ -34,6 +34,11 @@ pumpkinFaces.forEach(face => {
         setTimeout(() => {
             jumpscareOverlay.classList.remove("active");
             document.body.classList.remove("shaking");
+
+            if(jumpscareAudio){
+                jumpscareAudio.pause();
+                jumpscareAudio.currentTime = 0;
+            }
         }, 2000);
     });
 });
